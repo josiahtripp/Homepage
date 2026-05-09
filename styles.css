@@ -1,0 +1,42 @@
+#NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#NavBar ul li {
+    float: left;
+}
+
+#NavBar ul li a {
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#NavBar ul li a:hover {
+    background-color: #111111;
+}
+
+#AboutSection img {
+    border-radius: 50%;
+}
+
+#AboutSection .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
